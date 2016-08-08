@@ -1,0 +1,20 @@
+{
+  "name": "sass-gulp-kit",
+  "version": "1.0.0",
+  "description": "A simple SASS kit with gulp",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp styles",
+    "start": "npm run build && gulp"
+  },
+  "author": "srinivasan <srini.cug@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/srinisoundar/sass-gulp-kit.git"
+  }
+}
